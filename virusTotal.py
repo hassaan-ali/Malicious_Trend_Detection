@@ -8,7 +8,7 @@ from scrapeData import appendCsv
 
 FILENAME = './{malicious_or_benign}/{date}_{source}_{trend}_{id}.json'
 
-API_key = 'd9be5ab0910a56a56744c76daab1347a00efd92b257ed562a90dc47f8d69d75d'
+API_key = '<INSERT VIRUS TOTAL API KEY'
 VIRUSTOTAL_MAX_RETRIES = 5
 
 URL_HEADER = ['Date', 'Source', 'SearchEngine', 'Trend', 'URL', 'harmless', 'malicious', 'suspicious', 'undetected', 'timeout']
