@@ -10,11 +10,11 @@ import tweepy
 import csv
 import sys
 
-####input your Twitter credentials here
-consumer_key = 'l9Bt05rooG2Vfo5zCqtlrFtvp'
-consumer_secret = 'ql1Gy4fupW73moobmSUxBT5n2g4CaMVcrSX802ZYB3MfU3EFQg'
-access_token = '1590476064261906433-7cnjSxlCkLhIIdyBIYd2L4jKulOE46'
-access_token_secret = 'aIJIaBGytKVgQYlRawde3CbdetxXxwSkwtusZtbazHM57'
+####input your Twitter credentials here <Insert credentials below before running the code>
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
